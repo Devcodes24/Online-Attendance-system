@@ -1,0 +1,114 @@
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient( #042727,#222205);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* text-align: center; */
+}
+
+form h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    text-decoration: overline;
+    /* text-decoration: underline; */
+}
+
+table{
+    width: 20vw;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+input[type="checkbox" i]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit" i]{
+    border: none;
+
+}
+
+#submit{
+    border: 2px goldenrod;
+    color: rgb(240, 38, 230);
+
+    background: #fff;
+    font-size: 23px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+#submit:hover{
+    color: gold;
+    background-color: black;
+    border-radius: 10px;
+    transition: .9s;
+}
+
+#data{
+    border: 2px black;
+    color: rgb(240, 38, 230);
+    /* background: goldenrod; */
+    font-size: 23px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+
+}
+
+/* table tr td input[type = checkbox]{
+    border: none;
+    box-sizing: border-box;
+    font-size: 60px;
+} */
+
+
+
+table td{
+    border: 2px solid yellow;
+    border-style: solid;
+    color:  yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table #check td{
+    font-size: 30px;
+}
+@media (min-width: 360px){
+
+    /* body{
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    } */
+    table{
+        width: 60vw;
+        
+        height: fit-content;
+        justify-content: space-between;
+        justify-content: space-around;
+        /* background-color: aqua; */
+    }
+
+}
